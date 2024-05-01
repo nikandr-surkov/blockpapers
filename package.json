@@ -1,0 +1,46 @@
+{
+  "name": "blockpapers",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+  "export": "next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.1.1",
+    "@mdx-js/loader": "^3.0.1",
+    "@mdx-js/react": "^3.0.1",
+    "@next/mdx": "^14.2.3",
+    "@orbs-network/ton-access": "^2.3.3",
+    "@ton/core": "^0.56.3",
+    "@ton/ton": "^13.11.1",
+    "@tonconnect/ui-react": "^2.0.2",
+    "clsx": "^2.1.0",
+    "geist": "^1.2.2",
+    "gray-matter": "^4.0.3",
+    "next": "14.1.0",
+    "next-mdx-remote": "^4.4.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "rehype-pretty-code": "^0.12.6",
+    "remark-emoji": "^3.1.2",
+    "remark-gfm": "^3.0.1",
+    "tailwind-merge": "^2.2.1",
+    "ton-crypto": "^3.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
